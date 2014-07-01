@@ -1,4 +1,4 @@
-## Get most active stocks on the NYSE
+#### Get most active stocks on the NYSE
 
 ```java
 /* create the onDemand client with your API key */
@@ -35,7 +35,7 @@ leaders.refresh();
 
 ```
 
-## Output
+#### Output
 
 1. BAC (Bank of America Corp) Last: 15.52
 2. TWTR (Twitter Inc) Last: 42.77
@@ -50,3 +50,11 @@ leaders.refresh();
 11. VALE (Vale S.A.) Last: 13.5
 12. CBS (CBS Corp) Last: 63.29
 13. FCX (Freeport-Mcmoran Copper & Gold) Last: 37.05
+
+#### More information
+
+* [Getting started](#)
+* [Source for the client](https://github.com/barchart/barchart-ondemand-client-java)
+
+
+
