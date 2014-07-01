@@ -53,7 +53,7 @@ leaders.refresh();
 
 #### More information
 
-* [Getting started](#)
+* [Running the Example](https://github.com/barchart/barchart-ondemand-example-java/wiki/Getting-Started)
 * [Source for the client](https://github.com/barchart/barchart-ondemand-client-java)
 
 
