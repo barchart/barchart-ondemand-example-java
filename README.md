@@ -27,7 +27,7 @@ for (Leader leader : leaders.all()) {
 	count++;
 }
 		
-/* save the results and update them at a later time */
+/* keep reference to the leaders object and update them at a later time */
 		
 leaders.refresh();
 		
@@ -47,9 +47,6 @@ leaders.refresh();
 8. AMD (Advanced Micro Devices) Last: 4.22
 9. PFE (Pfizer Inc) Last: 29.9
 10. RAD (Rite Aid Corp) Last: 7.18
-11. VALE (Vale S.A.) Last: 13.5
-12. CBS (CBS Corp) Last: 63.29
-13. FCX (Freeport-Mcmoran Copper & Gold) Last: 37.05
 
 #### More information
 
