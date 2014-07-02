@@ -13,11 +13,12 @@ public class Main {
 	public Main() throws Exception {
 
 		/* create the onDemand client with your API key */
-		
-		final BarchartOnDemandClient onDemand = new BarchartOnDemandClient.Builder().apiKey("change-me").build();
+
+		final BarchartOnDemandClient onDemand = new BarchartOnDemandClient.Builder().debug(true).apiKey("change-me")
+				.build();
 
 		/* get active stocks on NYSE */
-		
+
 		final OnDemandRequest leadersRequest = new LeadersRequest.Builder().exchanges(new String[] { "NYSE" })
 				.assetType(LeadersAssetType.STOCK).type(LeadersRequestType.ACTIVE).build();
 
@@ -37,11 +38,11 @@ public class Main {
 
 			count++;
 		}
-		
+
 		/* save the results and update them at a later time */
-		
+
 		leaders.refresh();
-		
+
 		/* output the results again */
 
 	}
